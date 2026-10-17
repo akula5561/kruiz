@@ -244,3 +244,10 @@ a[href^="tel"]{white-space:nowrap}
 .lb-prev{left:16px;top:50%;transform:translateY(-50%)}
 .lb-next{right:16px;top:50%;transform:translateY(-50%)}
 .gallery a:nth-child(8):last-child{grid-column:span 2}
+
+/* ---------- Метрика и cookie ---------- */
+.ym-pixel{position:absolute;left:-9999px}
+.cookie-bar{position:fixed;left:16px;right:16px;bottom:16px;z-index:30;max-width:720px;margin:0 auto;display:flex;align-items:center;gap:16px;padding:16px 18px;background:var(--deep);color:rgba(255,255,255,.88);border-radius:var(--radius);box-shadow:var(--shadow-lift);font-size:14px;line-height:1.5}
+.cookie-bar a{color:#fff}
+.cookie-bar .btn{flex:none;min-height:42px;padding:8px 20px;font-size:15px}
+@media (max-width:560px){.cookie-bar{flex-direction:column;align-items:stretch;text-align:left}}
